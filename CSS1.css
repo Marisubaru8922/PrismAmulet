@@ -498,3 +498,14 @@ li.charasidebar{
 .CrassTD{
     width:55px;
 }
+body{
+    background-color: #f2f2f2;
+}
+img.Chara{
+    height: 100px;
+    margin-right:20px;
+}
+.serihu{
+    display:flex;
+}
+
