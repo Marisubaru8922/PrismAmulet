@@ -1,0 +1,500 @@
+@media screen{
+body{
+    background-color:#f2f2f2;
+}
+h1{
+    color:#000000;
+    background-color:#ff7f7f;;
+    padding: 20px;
+    border:solid 8px #cc0000;
+    font-size:50px;
+    text-shadow:1px 0 0 white,
+                0 1px 0 white,
+                -1px 0 0 white,
+                0 -1px 0 white;
+}
+h2{
+    font-size:40px;
+}
+h3{
+    font-size:33px;
+}
+h4{
+    font-size:28px;
+}
+h5{
+    font-size:23px
+}
+th{
+    background-color: #ff7f7f;
+    border:solid 1px black;
+    margin:0px;
+    color:white;
+}
+td{
+    text-align: center;
+    background-color: white;
+    border:solid 1px black;
+    margin:0px;
+
+}
+img.PC{
+    height:350px;
+}
+img.Eng{
+    height:300px;
+}
+p{
+    font-size:18px;
+}
+p.program{
+    background-color:#000000;
+    color:#ffffff;
+}
+img#Mainimage{
+    margin:10px 10px 20px 20px;
+    width:350px;
+    height:350px;
+}
+.sidebar{
+    float:left;
+    width:20%;
+    margin:10px 0 10px 0;
+}
+.content{
+    float:left;
+    width:80%;
+    margin: 10px 0 10px 0;
+    background-color: #ffffff;
+}
+.footer{
+    float:both;
+}
+#form{
+    text-align:right;
+}
+.Topbar{
+    text-align:center;
+}
+li.Topbar{
+    list-style: none;
+}
+li.sidebar{
+    list-style: none;
+}
+li.mainbar{
+    display:inline-block;
+    padding:5px;
+}
+li.tab{
+    float:left;
+    margin-right:1px;
+    list-style-type: none;
+}
+li.tab a{
+    font-size:2em;
+    font-weight: bold;
+    color:#ffffff;
+    text-decoration: none;
+    display:block;
+    background-color:#ff7f7f;
+    border:solid 3px #cc0000;
+}
+li.tab a.current{
+    background-color:#f5f5f2;
+    color:#ff7f7f;
+}
+
+#contents{
+    clear:both;
+}
+ul .sidebar{
+    padding-left: 0;
+}
+
+li.Side a{
+    color:#ff69a5;
+    font-size:35px;
+}
+.itempink{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#ffb2d2;
+    border:solid 3px #ff69a5;
+    border-radius: 20px;
+    padding:5px;
+}
+.itemorange{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#ff9b31;
+    border:solid 3px #de5d1d;
+    border-radius: 20px;
+    padding:5px;
+}
+.itemyellow{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#fff265;
+    border:solid 3px #ffbf3f;
+    border-radius: 20px;
+    padding:5px;
+}
+.itemgreen{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#b3f254;
+    border:solid 3px #5abf13;
+    border-radius: 20px;
+    padding:5px;
+}
+.itemdarkgreen{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#00bf1f;
+    border:solid 3px #006619;
+    border-radius: 20px;
+    padding:5px;
+}
+.itemblue{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#1969ff;
+    border:solid 3px #1a34b2;
+    border-radius: 20px;
+    padding:5px;
+}
+.itempurple{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#8b4ad6;
+    border:solid 3px #5f2699;
+    border-radius: 20px;
+    padding:5px;
+}
+
+.navi ul{
+    list-style-type: none;
+}
+.navi{
+    display:inline-block;
+}
+.navi a::after{
+    color:#000000;
+    content:'>';
+    font-weight:bold;
+}
+a{
+    color:blue;
+    text-decoration:none;
+}
+a:hover{
+    color:#84ddff;
+}
+.itempink:hover{
+    color:white;
+    text-shadow:1px 0 0 rgb(58, 58, 58),
+    0 1px 0 rgb(58, 58, 58),
+    -1px 0 0 rgb(58, 58, 58),
+    0 -1px 0 rgb(58, 58, 58);
+    font-weight:bold;
+    background-color:#ffd8e8;
+    border:solid 3px #ffb2d1;
+    padding:5px;
+}
+.itemorange:hover{
+    color:white;
+    text-shadow:1px 0 0 rgb(58, 58, 58),
+    0 1px 0 rgb(58, 58, 58),
+    -1px 0 0 rgb(58, 58, 58),
+    0 -1px 0 rgb(58, 58, 58);
+    font-weight:bold;
+    background-color:#ffb25f;
+    border:solid 3px #f07538;
+    padding:5px;
+}
+.itemyellow:hover{
+    color:white;
+    text-shadow:1px 0 0 rgb(58, 58, 58),
+    0 1px 0 rgb(58, 58, 58),
+    -1px 0 0 rgb(58, 58, 58),
+    0 -1px 0 rgb(58, 58, 58);
+    font-weight:bold;
+    background-color:#fff7a3;
+    border:solid 3px #ffd558;
+    padding:5px;
+}
+.itemgreen:hover{
+    color:white;
+    text-shadow:1px 0 0 rgb(58, 58, 58),
+    0 1px 0 rgb(58, 58, 58),
+    -1px 0 0 rgb(58, 58, 58),
+    0 -1px 0 rgb(58, 58, 58);
+    font-weight:bold;
+    background-color:#d0ff73;
+    border:solid 3px #80eb34;
+    padding:5px;
+}
+.itemblue:hover{
+    color:white;
+    text-shadow:1px 0 0 rgb(58, 58, 58),
+    0 1px 0 rgb(58, 58, 58),
+    -1px 0 0 rgb(58, 58, 58),
+    0 -1px 0 rgb(58, 58, 58);
+    font-weight:bold;
+    background-color:#69acff;
+    border:solid 3px #326be5;
+    padding:5px;
+}
+.itempurple:hover{
+    color:white;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight:bold;
+    background-color:#c79aff;
+    border:solid 3px #8a4ccb;
+    border-radius: 20px;
+    padding:5px;
+}
+.sideimg{
+    width:80px;
+    height:80px;
+}
+.str_re{
+    color:#cc0000;
+}
+.str_or{
+    color:#ff9f3f;
+}
+.str_ye{
+    color:#ffd819;
+}
+.str_gr{
+    color:#87ff32;
+}
+.str_bl{
+    color:#0043cc;
+}
+.str_in{
+    color:#17008c
+}
+.str_blpu{
+    color:#4400cc;
+}
+.str_pu{
+    color:#b265ff;
+}
+.str_repu{
+    color:#cc00cc;
+}
+.str_pi{
+    color:#ff66b2;
+}
+.str_sq{
+    border:solid 3px #ff7f7f;
+}
+
+#TopIMG{
+    height: 150px;
+}
+img.Works{
+    height:100px;
+}
+.secrettext_1{
+    color:#f2f2f2;
+}
+.secrettext_2{
+    color:#ffffff;
+}
+.Norhtantia{
+    background: linear-gradient(#05FBFF,#1E00FF) ;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.Imagecolor{
+    font-weight:bold;
+}
+#Alice{
+    background-color: #ffb2d2;
+    color:black;
+}
+#Elze{
+    background-color: #ff9b31;
+    color:black;
+}
+#Mary{
+    background-color: #FFF265;
+    color:black;
+}
+#Sophia{
+    background-color: #B3F254;
+    color:black;
+}
+#Giselle{
+    background-color: #1965FF;
+    color:black;
+}
+#Derica{
+    background-color: #8B4AD6;
+    color:white;
+}
+#Leaf{
+    background-color: #97f23c;
+    color:black;
+}
+#Nagaya{
+    background-color: #503386;
+    color:white;
+}
+#Fluffia{
+    background-color: #FFF5B5;
+    color:black;
+}
+#Gwin{
+    background-color: #618D3D;
+    color:black;
+}
+#Citrine{
+    background-color: #ffe5a0;
+    color:black;
+}
+#Sudo{
+    background-color: #603576;
+    color:white;
+}
+#Hisui{
+    background-color: #b9ff7d;
+    color:black;
+}
+li.maincharabar{
+    list-style: none;
+    padding-left: 0px;
+}
+img.maincharabar{
+    width:500px;
+}
+li.charasidebar{
+    list-style:none;
+    padding-left:0px;
+    font-size:20px;
+}
+#M_S{
+    width:170px;
+    height:170px;
+    line-height:170px;
+    background-color:#ff7f7f;
+    color:#ffffff;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    list-style:none;
+    display:inline-block;
+    margin:30px;
+}
+#M_M{
+        width:240px;
+        height:240px;
+        line-height:240px;
+        background-color:#ff7f7f;
+        color:#ffffff;
+        text-shadow:1px 0 0 black,
+        0 1px 0 black,
+        -1px 0 0 black,
+        0 -1px 0 black;
+        font-weight: bold;
+        border-radius: 50%;
+        text-align: center;
+        list-style:none;
+        display:inline-block;
+        margin:30px;
+}
+#M_L{
+    width:310px;
+    height:310px;
+    line-height:310px;
+    background-color:#ff7f7f;
+    color:#ffffff;
+    text-shadow:1px 0 0 black,
+    0 1px 0 black,
+    -1px 0 0 black,
+    0 -1px 0 black;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    list-style:none;
+    display:inline-block;
+    margin:30px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 30px solid #cc0000;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    display:inline-block;
+}
+#Amuletimg{
+    width:800px;
+}
+}
+.Comuni{
+    display:flex;
+}
+.Comuni .Image{
+    width:100px;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    position:relative;
+}
+.Comuni .Sabun{
+    width:100px;
+}
+.Comuni .Comutext{
+    margin:0 0 0 20px;
+    padding:0;
+}
+.Characon{
+    width:80px;
+}
+.ClassTD{
+    width:150px;
+}
+.CrassTD{
+    width:55px;
+}
