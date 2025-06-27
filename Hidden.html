@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>異世界マップ</title>
+  <style>
+    .map-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 横3列 */
+      grid-template-rows: repeat(3, 100px);  /* 縦3行 */
+      gap: 5px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .map-cell {
+      background-color: #e0f0ff;
+      border: 1px solid #aaa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .map-cell a {
+      text-decoration: none;
+      color: #003366;
+    }
+
+    .map-cell:hover {
+      background-color: #c0e0ff;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">異世界マップ</h1>
+  <div class="map-container">
+    <div class="map-cell"><a href="mountain.html">山岳地帯</a></div>
+    <div class="map-cell"><a href="capital.html">王都</a></div>
+    <div class="map-cell"><a href="forest.html">妖精の森</a></div>
+    <div class="map-cell"><a href="desert.html">砂漠の町</a></div>
+    <div class="map-cell"><a href="lake.html">湖の村</a></div>
+    <div class="map-cell"><a href="volcano.html">火山地域</a></div>
+    <div class="map-cell"><a href="tundra.html">氷原</a></div>
+    <div class="map-cell"><a href="port.html">港町</a></div>
+    <div class="map-cell"><a href="ruins.html">古代遺跡</a></div>
+  </div>
+</body>
+</html>
